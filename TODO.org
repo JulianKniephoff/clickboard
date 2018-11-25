@@ -1,0 +1,39 @@
+* DevOps
+** Write a ~README~
+** Pick a license
+*** Does your choice of GUI toolkit play into this?
+**** Look up what license different toolkits would impose on you
+Cadidates:
+- PySide
+- PyQt
+** Add a shebang?
+** Add a ~requirements.txt~?
+** Split the code into multiple files?
+*** You will probably need some kind of start script then
+See also [[*Add a shebang?][Add a shebang?]]
+** Take care of distribution
+*** Make a ~pip~ package?
+*** Make operating system packages?
+** Use PySide instead of PyQt?
+* Features
+** Should we grab the mouse?
+** What should happen if the mouse is moved during the search?
+*** Should we reposition it?
+*** Should the current position determine the split?
+**** We could even start the search that way
+** When the window moves (for example between monitors), the mouse needs to be repositioned
+** More flexible key bindings
+*** Allow multiple bindings?
+Like ~vim~-like bindings plus WASD
+to have bindings under both hands
+when touch typing.
+*** Make them configurable
+** Allow reversing steps of the search
+** Enable clicking different mouse buttons, buttons with modifiers, etc.
+*** Can we support hovering?
+What if we don't grab the focus,
+would that help?
+Is that even possible?
+** Better support for multiple monitors
+** Only allow one instance of this program to run
+** Support limiting the search to another window?

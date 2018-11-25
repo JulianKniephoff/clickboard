@@ -14,33 +14,6 @@ from PyQt5.QtGui import QCursor, QPainter
 from PyQt5.QtCore import Qt, QPoint, QEvent
 
 
-# TODO Create a TODO file
-# TODO Pick a license
-# TODO Maybe port to PySide?!
-#   Maybe even because of the license?
-# TODO Write a `README`
-# TODO Grab the mouse?!
-# TODO Make the keys configurable?
-# TODO Allow multiple bindings
-#   like the Vim-bindings on the right side
-#   and WASD on the left?
-# TODO Allow "going back up the chain"?
-# TODO Allow clicking different buttons
-#   Also what about modifiers?
-# TODO Multi-monitor support?!
-# TODO Make variables `snake_case`?
-#   That would be more PEP 8,
-#   but would also look out of place
-#   between all the Qt...
-# TODO Somehow support hovering?!
-#   I guess the tool has to relinquish focus somehow...
-# TODO Document the dependencies
-# TODO Split up this file
-# TODO How do you distribute it?
-#   pip?
-# TODO Package it?!
-
-
 class Window(QMainWindow):
     def __init__(self):
         super().__init__()
