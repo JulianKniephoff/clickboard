@@ -24,6 +24,8 @@ class Window(QMainWindow):
         self.currentChoice.installEventFilter(self)
 
         self.setWindowOpacity(0.3)
+
+        self.move(QCursor.pos())
         self.showFullScreen()
 
         self.originalCursorPosition = QCursor.pos()
