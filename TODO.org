@@ -35,5 +35,8 @@ What if we don't grab the focus,
 would that help?
 Is that even possible?
 ** Better support for multiple monitors
+*** Allow moving the window between monitors?
+*** Or just fill the entire screen geometry?
+**** That might be hard because it is not necessarily rectangular?
 ** Only allow one instance of this program to run
 ** Support limiting the search to another window?
